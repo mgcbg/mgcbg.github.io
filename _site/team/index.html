@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Team</title>
+  <meta name="description" content="Team members">
+  <link rel="stylesheet" href="http://localhost:4000/mgcbg/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/mgcbg/team/">
+  <script src="http://localhost:4000/mgcbg/js/jquery.js"></script>
+  <script src="http://localhost:4000/mgcbg/js/profile.js"></script>
+<!--link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/mgcbg/images/favicon.ico"> -->
+<link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/mgcbg/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/mgcbg/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/mgcbg/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/mgcbg/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/mgcbg/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/mgcbg/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/mgcbg/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/mgcbg/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/mgcbg/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4000/mgcbg/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="http://localhost:4000/mgcbg/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:4000/mgcbg/favicon-16x16.png">
+<link rel="manifest" href="http://localhost:4000/mgcbg/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="http://localhost:4000/mgcbg/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+<style>
+	.blocker {
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  width: 100%; height: 100%;
+  overflow: auto;
+  z-index: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.75);
+  text-align: center;
+}
+.blocker:before{
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.05em;
+}
+.blocker.behind {
+  background-color: transparent;
+}
+.modal {
+  display: none;
+  vertical-align: middle;
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  box-sizing: border-box;
+  width: 90%;
+  background: #fff;
+  padding: 15px 30px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 10px #000;
+  -moz-box-shadow: 0 0 10px #000;
+  -o-box-shadow: 0 0 10px #000;
+  -ms-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000;
+  text-align: left;
+}
+
+.modal a.close-modal {
+  position: absolute;
+  top: -12.5px;
+  right: -12.5px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-indent: -9999px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAA3hJREFUaAXlm8+K00Acx7MiCIJH/yw+gA9g25O49SL4AO3Bp1jw5NvktC+wF88qevK4BU97EmzxUBCEolK/n5gp3W6TTJPfpNPNF37MNsl85/vN/DaTmU6PknC4K+pniqeKJ3k8UnkvDxXJzzy+q/yaxxeVHxW/FNHjgRSeKt4rFoplzaAuHHDBGR2eS9G54reirsmienDCTRt7xwsp+KAoEmt9nLaGitZxrBbPFNaGfPloGw2t4JVamSt8xYW6Dg1oCYo3Yv+rCGViV160oMkcd8SYKnYV1Nb1aEOjCe6L5ZOiLfF120EjWhuBu3YIZt1NQmujnk5F4MgOpURzLfAwOBSTmzp3fpDxuI/pabxpqOoz2r2HLAb0GMbZKlNV5/Hg9XJypguryA7lPF5KMdTZQzHjqxNPhWhzIuAruOl1eNqKEx1tSh5rfbxdw7mOxCq4qS68ZTjKS1YVvilu559vWvFHhh4rZrdyZ69Vmpgdj8fJbDZLJpNJ0uv1cnr/gjrUhQMuI+ANjyuwftQ0bbL6Erp0mM/ny8Fg4M3LtdRxgMtKl3jwmIHVxYXChFy94/Rmpa/pTbNUhstKV+4Rr8lLQ9KlUvJKLyG8yvQ2s9SBy1Jb7jV5a0yapfF6apaZLjLLcWtd4sNrmJUMHyM+1xibTjH82Zh01TNlhsrOhdKTe00uAzZQmN6+KW+sDa/JD2PSVQ873m29yf+1Q9VDzfEYlHi1G5LKBBWZbtEsHbFwb1oYDwr1ZiF/2bnCSg1OBE/pfr9/bWx26UxJL3ONPISOLKUvQza0LZUxSKyjpdTGa/vDEr25rddbMM0Q3O6Lx3rqFvU+x6UrRKQY7tyrZecmD9FODy8uLizTmilwNj0kraNcAJhOp5aGVwsAGD5VmJBrWWbJSgWT9zrzWepQF47RaGSiKfeGx6Szi3gzmX/HHbihwBser4B9UJYpFBNX4R6vTn3VQnez0SymnrHQMsRYGTr1dSk34ljRqS/EMd2pLQ8YBp3a1PLfcqCpo8gtHkZFHKkTX6fs3MY0blKnth66rKCnU0VRGu37ONrQaA4eZDFtWAu2fXj9zjFkxTBOo8F7t926gTp/83Kyzzcy2kZD6xiqxTYnHLRFm3vHiRSwNSjkz3hoIzo8lCKWUlg/YtGs7tObunDAZfpDLbfEI15zsEIY3U/x/gHHc/G1zltnAgAAAABJRU5ErkJggg==');
+
+}
+
+.modal-spinner {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  padding: 12px 16px;
+  border-radius: 5px;
+  background-color: #111;
+  height: 20px;
+}
+
+.modal-spinner > div {
+  border-radius: 100px;
+  background-color: #fff;
+  height: 20px;
+  width: 2px;
+  margin: 0 1px;
+  display: inline-block;
+
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.modal-spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.modal-spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.modal-spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.5) }
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% {
+    transform: scaleY(0.5);
+    -webkit-transform: scaleY(0.5);
+  }  20% {
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+</style>
+
+</head>
+
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation" >
+  <div  style="background-color: #191970">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>	
+    <a class="navbar-brand" href="http://localhost:4000/mgcbg/">Molecular Genetics & Cell Biology Group</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="http://localhost:4000/mgcbg/">Home</a></li>
+		<li><a href="http://localhost:4000/mgcbg/team">Members</a></li>
+		<li><a href="http://localhost:4000/mgcbg/research">Research</a></li>
+		<li><a href="http://localhost:4000/mgcbg/publications">Publications</a></li>
+		<li><a href="http://localhost:4000/mgcbg/allnews">News</a></li>
+		<li><a href="http://localhost:4000/mgcbg/---">Opportunities</a></li>
+		<li><a href="http://localhost:4000/mgcbg/---">Contact</a></li>
+		<li><a href="http://localhost:4000/mgcbg/---">Gallery</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="gridid" class="col-sm-12">
+  <h1 id="lab-leader">LAB LEADER</h1>
+
+<div class="row">
+
+  <div class="col-sm-12 clearfix">
+    <p><img src="http://localhost:4000/mgcbg/images/teampic/profawandare.png" class="img-responsive" width="20%" style="float: left;" /></p>
+    <h4>Prof Gordon Awandare</h4>
+    <p>Principal Investigator<br />email: <a href="mailto:gawandare@hotmail.com">gawandare@hotmail.com</a><br /></p>
+    <h6>
+    <a href="https://www.linkedin.com/in/gordon-awandare-76410013b">Linkedin</a> | 
+    <a href="https://scholar.google.com/citations?user=jJT4wbQAAAAJ&amp;hl=en">Google Scholar</a> | 
+    <a href="https://www.researchgate.net/profile/Gordon_Awandare">ResearchGate</a> | 
+    <a href="https://twitter.com/gordon_awandare">Twitter</a>| 
+    <a href="https://orcid.org/0000-0002-8793-3641">ORCID</a>
+  </h6>
+    <div class="modal">
+
+      <p><a href="#" rel="modal:close">Close</a></p>
+    </div>
+    <p><a href="#" rel="modal:open">Career Biography</a></p>
+
+  </div>
+
+</div>
+
+<h2 id="group-lead">GROUP LEAD</h2>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <p><img src="http://localhost:4000/mgcbg/images/teampic/yawaniweh.png" class="img-responsive" width="25%" style="float: left;" /></p>
+    <h4>Yaw Aniweh,PhD</h4>
+    <p>Research fellow<br /><a href="mailto:aniweh@gmail.com">aniweh@gmail.com</a></p>
+    <h6><a href="https://www.linkedin.com/in/yaw-aniweh-phd-8971361a/">Linkedin</a> | <a href="https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&amp;hl=en">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Yaw_Aniweh">ResearchGate</a> | <a href="https://twitter.com/AniwehYaw">Twitter</a> | <a href="https://orcid.org/0000-0002-8415-2727">ORCID</a></h6>
+
+    <div id="pop1" class="modal">
+
+      <p>He joined WACCBIP in 2016 as WACCBIP-DELTAS postdoctoral fellow working on the discovery of genes with possible functions that makes them suitable as either vaccine candidates or drug targets.</p>
+
+      <p>This was after his PhD study in the Division of Molecular Genetics and Cell Biology, School of Biological Sciences, Nanyang Technological University (NTU), Singapore. BSc. Laboratory technology (First Class Honours) from University of Cape Coast, Ghana.</p>
+
+      <p>He serve as a co-investigator and coordinate the TIBA-Ghana project, which seeks to understand the impact of non-falciparum species on Malaria in Ghana.  He was recently awarded the Crick African Network (CAN) fellowship for the career accelerator grant.</p>
+
+      <p>He am passionate about science, enjoys intellectual discussions, advocate for effective science communication and community engagement.</p>
+
+      <p>He enjoy reading and writing poems, reading history books, sightseeing, jogging, etc. 
+  His career aim is to build a new generation of scientists who will solve key infectious disease problems in Africa.</p>
+
+      <p>“The best way to honour a hero/heroine is to break his/her records”</p>
+
+      <p><a href="#" rel="modal:close">Close</a></p>
+    </div>
+    <p><a href="#pop1" rel="modal:open">Career Biography</a></p>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <p><img src="http://localhost:4000/mgcbg/images/teampic/joemutungi.jpg" class="img-responsive" width="25%" style="float: left;" /></p>
+    <h4>Joe Mutungi,PhD</h4>
+    <p>Postdoc<br /><a href="mailto:joemutungi@yahoo.com">joemutungi@yahoo.com</a></p>
+    <h6><a href="https://www.linkedin.com/in/dr-joe-kimanthi-mutungi-b9271035">Linkedin</a> | <a href="https://scholar.google.com/citations?user=IwuVnGQAAAAJ&amp;hl=en">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Joe_Mutungi3">ResearchGate</a> | <a href="https://twitter.com/joemutungi">Twitter</a> | <a href="https://orcid.org/0000-0003-2170-7577">ORCID</a></h6>
+
+    <div id="pop2" class="modal">
+
+      <p>Dr. Mutungi, a Kenyan, holds a PhD in Medical Sciences in Infection Research. 
+  His research is focused on unravelling the malaria parasite biology to discover novel malaria antigens that can serve as vaccine and drug targets.</p>
+
+      <p>He graduated from Egerton University, Kenya, with a First-Class Honors in Bsc. Biomedical Science and Technology in 2005. 
+  In 2008, he competitively won a Japanese government (Monbukagakusho (MEXT)) scholarship for postgraduate studies in Japan.</p>
+
+      <p>From 2008 to 2014, he studied for his MSc and PhD at Nagasaki University, The Institute of Tropical Medicine (NEKKEN), in the lab of Prof. Osamu Kaneko, researching on the molecular mechanisms of host cell invasion by malaria parasites. 
+  After PhD, from 2015 to 2018, he worked as a post-doctoral fellow at The University of Tokyo, in the lab of Prof. Noboru Mizushima, researching on autophagy conjugation systems of Plasmodium and Toxoplasma gondii.</p>
+
+      <p>Having spent a total of ten years in Japan, he was highly motivated to return home, Africa, to join fellow African biomedical scientists based in Africa in initiating and developing home-grown interventions for infectious diseases.</p>
+
+      <p>In 2019 he joined the West African Center for Cell Biology of Infectious Pathogens (WACCBIP), at the University of Ghana, under the TIBA partnership, working closely with Dr. Yaw Aniweh and under Prof. Gordon Awandare. Dr. Mutungi is keen in establishing and participating in national, regional and global multi-disciplinary research collaborations and to develop into a world class independent scientist, leader, mentor, policy formulation and implementation capacities to innovate local solutions to Africa’s health challenges. 
+His hobby is photography. 
+  At personal level, he has a bi-racial nuclear family and enjoys social, racial and cultural diversity</p>
+
+      <p><a href="#" rel="modal:close">Close</a></p>
+    </div>
+    <p><a href="#pop2" rel="modal:open">Career Biography</a></p>
+  </div>
+
+</div>
+
+<h2 id="students">STUDENTS</h2>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <p><img src="http://localhost:4000/mgcbg/images/teampic/rock.jpg" class="img-responsive" width="15%" style="float: left;" /></p>
+    <h4>Reuben Ayivor-Djanie</h4>
+    <p><i>Final-year PhD student<br />email: <a href="mailto:rayivor.djanie@gmail.com">rayivor.djanie@gmail.com</a></i></p>
+    <ul style="overflow: hidden">
+
+  
+
+  
+
+  
+
+  
+
+  </ul>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <p><img src="http://localhost:4000/mgcbg/images/teampic/latygayethiam.jpg" class="img-responsive" width="15%" style="float: left;" /></p>
+    <h4>Laty Thiam Gaye</h4>
+    <p><i>Final-year PhD student<br />email: <a href="mailto:latygaye.thiam@ucad.edu.sn">latygaye.thiam@ucad.edu.sn</a></i></p>
+    <ul style="overflow: hidden">
+
+  
+
+  
+
+  
+
+  
+
+  </ul>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <p><img src="http://localhost:4000/mgcbg/images/teampic/jersleychirawurah.png" class="img-responsive" width="15%" style="float: left;" /></p>
+    <h4>Jersley Chirawurah</h4>
+    <p><i>Second-year PhD student<br />email: <a href="mailto:jersley1987@gmail.com">jersley1987@gmail.com</a></i></p>
+    <ul style="overflow: hidden">
+
+  
+
+  
+
+  
+
+  
+
+  </ul>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <p><img src="http://localhost:4000/mgcbg/images/teampic/felixansah.jpg" class="img-responsive" width="15%" style="float: left;" /></p>
+    <h4>Felix Ansah</h4>
+    <p><i>Second-year PhD student<br />email: <a href="mailto:ansahfelix66@yahoo.com">ansahfelix66@yahoo.com</a></i></p>
+    <ul style="overflow: hidden">
+
+  
+
+  
+
+  
+
+  
+
+  </ul>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <p><img src="http://localhost:4000/mgcbg/images/teampic/alamissahsoulama.png" class="img-responsive" width="15%" style="float: left;" /></p>
+    <h4>Alamissa Soulama</h4>
+    <p><i>Second-year PhD student<br />email: <a href="mailto:alamissas@yahoo.fr">alamissas@yahoo.fr</a></i></p>
+    <ul style="overflow: hidden">
+
+  
+
+  
+
+  
+
+  
+
+  </ul>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <p><img src="http://localhost:4000/mgcbg/images/teampic/princenyarko.png" class="img-responsive" width="15%" style="float: left;" /></p>
+    <h4>Prince Nyarko</h4>
+    <p><i>MPhil Graduate<br />email: <a href="mailto:pbnyarko2010@gmail.com">pbnyarko2010@gmail.com</a></i></p>
+    <ul style="overflow: hidden">
+
+  
+
+  
+
+  
+
+  
+
+  </ul>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <p><img src="http://localhost:4000/mgcbg/images/teampic/evelynbaabaquansah.png" class="img-responsive" width="15%" style="float: left;" /></p>
+    <h4>Evelyn Baaba Quansah</h4>
+    <p><i>Final-year MPhil student<br />email: <a href="mailto:ebquansah001@gmail.com">ebquansah001@gmail.com</a></i></p>
+    <ul style="overflow: hidden">
+
+  
+
+  
+
+  
+
+  
+
+  </ul>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <p><img src="http://localhost:4000/mgcbg/images/teampic/jonathansuubaar.png" class="img-responsive" width="15%" style="float: left;" /></p>
+    <h4>Jonathan Suubaar</h4>
+    <p><i>First-year MPhil student<br />email: <a href="mailto:eccejonathan@gmail.com">eccejonathan@gmail.com</a></i></p>
+    <ul style="overflow: hidden">
+
+  
+
+  
+
+  
+
+  
+
+  </ul>
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-sm-6 clearfix">
+    <p><img src="http://localhost:4000/mgcbg/images/teampic/harrydanwonno.png" class="img-responsive" width="15%" style="float: left;" /></p>
+    <h4>Harry Danwonno</h4>
+    <p><i>First-year MPhil student<br />email: <a href="mailto:hatajerad@gmail.com">hatajerad@gmail.com</a></i></p>
+    <ul style="overflow: hidden">
+
+  
+
+  
+
+  
+
+  
+
+  </ul>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <p><img src="http://localhost:4000/mgcbg/images/teampic/reinharddanku.jpg" class="img-responsive" width="15%" style="float: left;" /></p>
+    <h4>Reinhard Danku</h4>
+    <p><i>Third-year BSc student<br />email: <a href="mailto:cdanku@gmail.com">cdanku@gmail.com</a></i></p>
+    <ul style="overflow: hidden">
+
+  
+
+  
+
+  
+
+  
+
+  </ul>
+  </div>
+
+</div>
+
+<!--
+## Alumni
+
+
+
+
+
+
+
+<div class="row">
+
+
+<div class="col-sm-6 clearfix">
+  <img src="http://localhost:4000/mgcbg/images/teampic/" class="img-responsive" width="25%" style="float: left" />
+  <h4></h4>
+  <i> <br> Role: <br>email: <></i>
+  <ul style="overflow: hidden">
+
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<table align="center" style="width:100%">
+ <tr>
+    <th>Visitors</th>
+    <th>Master Students</th>
+    <th>Bachelor Students</th>
+  </tr>
+  <tr>
+    <td>Nikolaos Iliopoulos, Spring 2016</td>
+    <td>Bert Visscher, Fall 2017</td>
+    <td>Vishnu Saj, Spring 2017</td>
+  </tr>
+  <tr>
+    <td>Vitaly Fedoseev, all of 2016</td>
+    <td>Ahmad Jamalzada, Fall 2017</td>
+    <td>Joey Braspenning, Spring 2017</td>
+  </tr>
+  <tr>
+    <td>Ramakrishna Aluru, Summer 2018</td>
+    <td>Tjerk Benschop, Summer 2017</td>
+    <td>Margot Leemker, Spring 2017</td>
+  </tr>
+  <tr>
+    <td>Changwei Zou, Spring 2018</td>
+    <td>Oliver Ostojic, Spring 2016</td>
+    <td>Sietske Lensen, Spring 2017</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Farshaad Hoeseni, Fall 2015</td>
+    <td>Alexander Vanstone, Spring 2016</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Tjerk Benschop, Spring 2016</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Arjo Andringa, Spring 2016</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Daniëlle van Klink, Spring 2016</td>
+  </tr>
+</table>
+
+## Administrative Support
+<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.
+-->
+
+</div>
+
+      </div>
+    </div>
+
+    <div id="footer" class="panel" style="background-color: #191970;">
+  <div class="panel-footer" style="background-color: #DAA520;">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-4">
+			
+		  <p>&copy 2019 Awandare Lab. Site made with <a href="https://jekyllrb.com">Jekyll</a>;</p>
+              <p>We are part of the <a href="http://waccbip.org">West African Centre for Infectious Diseases</a> at <a href="https://www.ug.edu.gh/">University of Ghana</a>.</p>
+            
+
+		   <p>  </p><p>
+            		        
+		</div>
+	<!--
+		<div class="col-sm-4">
+		  Funding:<br />
+		  - <a href="http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme">Vidi </a> and <a href='https://www.fom.nl/en/news/press-releases/2016/11/18/28634/'>Projectruimte</a> grants from <a href="http://www.nwo.nl">NWO</a> <br />
+		  - <a href="https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront">Frontier of Nanosciences</a>, a gravity program from <a href="http://www.nwo.nl">NWO</a>
+          - <a href='https://www.universiteitleiden.nl/en/news/2017/08/two-erc-grants-for-leiden-physics'>ERC starting grant</a>
+		</div>
+	-->
+		<div class="col-sm-4">
+		  Contact:<br />
+		  Department of Biochemistry, Cell & Molecular Biology<br />
+		  Volta Road<br />
+		  P.O. Box LG 54<br />
+		  Legon-Ghana<br />
+           <!-- (<a href="https://goo.gl/maps/H2RjutkyoUH2">Maps</a>, <a href="http://www.physics.leidenuniv.nl/travel-directions">Directions</a>)-->
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://localhost:4000/mgcbg/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>
