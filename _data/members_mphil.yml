@@ -1,0 +1,42 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+- name: Evelyn Baaba Quansah
+  photo: evelynbaabaquansah.png
+  info: Final-year MPhil student
+  email: ebquansah001@gmail.com
+  linkedin: <a href='https://www.linkedin.com/in/evelyn-quansah-955639135/'>Linkedin</a>
+  #googlescholar: <a href='https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&hl=en'>Google Scholar</a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Evelyn_Quansah2'>ResearchGate</a>
+  #orcid: <a href='https://orcid.org/0000-0002-8415-2727'>ORCID</a>
+  twitter: <a href='https://twitter.com/evie__q'>Twitter</a>
+  researchinterest: 
+
+- name: Jonathan Suurbaar
+  photo: jonathansuubaar.png
+  info: First-year MPhil student
+  email: eccejonathan@gmail.com
+  linkedin: <a href='https://www.linkedin.com/in/reuben-ayivor-djanie-76874a38/'>Linkedin</a>
+  #googlescholar: <a href='https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&hl=en'>Google Scholar</a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Reuben_Ayivor-Djanie'>ResearchGate</a>
+  orcid: <a href='https://orcid.org/0000-0002-8415-2727'>ORCID</a>
+  twitter: <a href='https://twitter.com/Jae_Suurbaar'>Twitter</a>
+  researchinterest: 
+
+- name: Harry Danwonno
+  photo: harrydanwonno.png
+  info: First-year MPhil student
+  email: hatajerad@gmail.com
+  linkedin: <a href='https://www.linkedin.com/in/reuben-ayivor-djanie-76874a38/'>Linkedin</a>
+  #googlescholar: <a href='https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&hl=en'>Google Scholar</a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Reuben_Ayivor-Djanie'>ResearchGate</a>
+  orcid: <a href='https://orcid.org/0000-0002-8415-2727'>ORCID</a>
+  twitter: <a href='https://twitter.com/Atajera'>Twitter</a>
+  researchinterest: 
