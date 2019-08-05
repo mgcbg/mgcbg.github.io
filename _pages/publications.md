@@ -1,13 +1,14 @@
 ---
 title: "Molecular Genetics and Cell Biology Group - Publications"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "MGCBG -- Publications."
 sitemap: false
 permalink: /publications/
 ---
 
 
 # Publications
+
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
@@ -22,7 +23,7 @@ permalink: /publications/
 <div class="col-sm-12 clearfix">
  <div class="well" style="background-color: #FFFFE0">
   <pubtit><a href="{{ publi.link.url }}">{{ publi.title }}</a></pubtit>
-  <p><em><strong>{{ publi.authors }}</strong></em></p>
+  <p><em><strong>{{ publi.authors }} {{ publi.date }}</strong></em></p> 
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="10%" style="float: left" />
   <p>{{ publi.description }}</p>
   

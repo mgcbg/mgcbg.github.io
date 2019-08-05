@@ -12,31 +12,41 @@
   photo: evelynbaabaquansah.png
   info: Final-year MPhil student
   email: ebquansah001@gmail.com
-  linkedin: <a href='https://www.linkedin.com/in/evelyn-quansah-955639135/'>Linkedin</a>
-  #googlescholar: <a href='https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&hl=en'>Google Scholar</a> 
-  researchgate: <a href='https://www.researchgate.net/profile/Evelyn_Quansah2'>ResearchGate</a>
-  #orcid: <a href='https://orcid.org/0000-0002-8415-2727'>ORCID</a>
-  twitter: <a href='https://twitter.com/evie__q'>Twitter</a>
+  linkedin: <a href='https://www.linkedin.com/in/evelyn-quansah-955639135/'>Linkedin |</a>
+  googlescholar: <a href=''> Google Scholar |</a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Evelyn_Quansah2'> ResearchGate |</a>
+  twitter: <a href='https://twitter.com/evie__q'> Twitter |</a>
+  orcid: <a href=''> ORCID</a>
+  modalid: pop1
   researchinterest: 
 
 - name: Jonathan Suurbaar
   photo: jonathansuubaar.png
   info: First-year MPhil student
   email: eccejonathan@gmail.com
-  linkedin: <a href='https://www.linkedin.com/in/reuben-ayivor-djanie-76874a38/'>Linkedin</a>
-  #googlescholar: <a href='https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&hl=en'>Google Scholar</a> 
-  researchgate: <a href='https://www.researchgate.net/profile/Reuben_Ayivor-Djanie'>ResearchGate</a>
-  orcid: <a href='https://orcid.org/0000-0002-8415-2727'>ORCID</a>
-  twitter: <a href='https://twitter.com/Jae_Suurbaar'>Twitter</a>
-  researchinterest: 
+  linkedin: <a href=''>Linkedin </a>
+  googlescholar: <a href=''> Google Scholar |</a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Reuben_Ayivor-Djanie'> ResearchGate |</a>
+  twitter: <a href='https://twitter.com/Jae_Suurbaar'> Twitter |</a>
+  orcid: <a href=''> ORCID</a>
+  modalid: pop2
+  researchinterest:  >
+    Jonathan Suurbaar graduated from the University for Development Studies (UDS), Tamale-Ghana, with a B.Sc. in Biochemistry. 
+      Jonathan is currently pursuing an MPhil in Molecular Cell Biology of Infectious Diseases, with special interest in malaria vaccinology. 
+  
+    His MPhil thesis focuses on the development and characterization of immune response to the PfRH5 complex of Plasmodium falciparum. 
+      In collaboration with the Jenner institute of vaccinology at the University of Oxford, He aims to successfully assess and prioritize immune response to different constructs of PfRH5 vaccine complex. 
+  
+    Jonathan enjoys pencil art and graphic designing for communication.
 
 - name: Harry Danwonno
   photo: harrydanwonno.png
   info: First-year MPhil student
   email: hatajerad@gmail.com
-  linkedin: <a href='https://www.linkedin.com/in/reuben-ayivor-djanie-76874a38/'>Linkedin</a>
-  #googlescholar: <a href='https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&hl=en'>Google Scholar</a> 
-  researchgate: <a href='https://www.researchgate.net/profile/Reuben_Ayivor-Djanie'>ResearchGate</a>
-  orcid: <a href='https://orcid.org/0000-0002-8415-2727'>ORCID</a>
-  twitter: <a href='https://twitter.com/Atajera'>Twitter</a>
+  linkedin: <a href=''>Linkedin |</a>
+  googlescholar: <a href=''> Google Scholar |</a> 
+  researchgate: <a href=''> ResearchGate |</a>
+  twitter: <a href='https://twitter.com/Atajera'> Twitter |</a>
+  orcid: <a href=''> ORCID</a>
+  modalid: pop3
   researchinterest: 

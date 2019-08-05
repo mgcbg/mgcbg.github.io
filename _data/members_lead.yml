@@ -1,12 +1,13 @@
-- name: Yaw Aniweh,PhD
+- name: Yaw Aniweh, PhD
   photo: yawaniweh.png
   info: Research fellow
   email: aniweh@gmail.com
-  linkedin: <a href='https://www.linkedin.com/in/yaw-aniweh-phd-8971361a/'>Linkedin</a>
-  googlescholar: <a href='https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&hl=en'>Google Scholar</a> 
-  researchgate: <a href='https://www.researchgate.net/profile/Yaw_Aniweh'>ResearchGate</a>
-  orcid: <a href='https://orcid.org/0000-0002-8415-2727'>ORCID</a>
-  twitter: <a href='https://twitter.com/AniwehYaw'>Twitter</a>
+  linkedin: <a href='https://www.linkedin.com/in/yaw-aniweh-phd-8971361a/'>Linkedin |</a>
+  googlescholar: <a href='https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&hl=en'> Google Scholar |</a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Yaw_Aniweh'> ResearchGate |</a>
+  twitter: <a href='https://twitter.com/AniwehYaw'> Twitter |</a>
+  orcid: <a href='https://orcid.org/0000-0002-8415-2727'> ORCID</a>
+  modalid: pop1
   biography:  >
     He joined WACCBIP in 2016 as WACCBIP-DELTAS postdoctoral fellow working on the discovery of genes with possible functions that makes them suitable as either vaccine candidates or drug targets. 
     
@@ -15,23 +16,24 @@
     He serve as a co-investigator and coordinate the TIBA-Ghana project, which seeks to understand the impact of non-falciparum species on Malaria in Ghana. 
     He was recently awarded the Crick African Network (CAN) fellowship for the career accelerator grant. 
 
-      He am passionate about science, enjoys intellectual discussions, advocate for effective science communication and community engagement. 
+      He is passionate about science, enjoys intellectual discussions, advocate for effective science communication and community engagement. 
     
     He enjoy reading and writing poems, reading history books, sightseeing, jogging, etc. 
       His career aim is to build a new generation of scientists who will solve key infectious disease problems in Africa. 
    
-    “The best way to honour a hero/heroine is to break his/her records”
-  modalid: pop1
+    <b>“The best way to honour a hero/heroine is to break his/her records”</b>
+  
 
-- name: Joe Mutungi,PhD
-  photo: joemutungi.jpg
+- name: Joe Mutungi, PhD
+  photo: joemutungi.png
   info: Postdoc
-  email: joemutungi@yahoo.com
-  linkedin: <a href='https://www.linkedin.com/in/dr-joe-kimanthi-mutungi-b9271035'>Linkedin</a>
-  googlescholar: <a href='https://scholar.google.com/citations?user=IwuVnGQAAAAJ&hl=en'>Google Scholar</a>
-  researchgate:  <a href='https://www.researchgate.net/profile/Joe_Mutungi3'>ResearchGate</a>
-  orcid: <a href='https://orcid.org/0000-0003-2170-7577'>ORCID</a>
-  twitter: <a href='https://twitter.com/joemutungi'>Twitter</a>
+  email: joemutungi@gmail.com
+  linkedin: <a href='https://www.linkedin.com/in/dr-joe-kimanthi-mutungi-b9271035'>Linkedin |</a>
+  googlescholar: <a href='https://scholar.google.com/citations?user=IwuVnGQAAAAJ&hl=en'> Google Scholar |</a>
+  researchgate:  <a href='https://www.researchgate.net/profile/Joe_Mutungi3'> ResearchGate |</a>
+  twitter: <a href='https://twitter.com/joemutungi'> Twitter |</a>
+  orcid: <a href='https://orcid.org/0000-0003-2170-7577'> ORCID</a>  
+  modalid: pop2
   biography:  >
     Dr. Mutungi, a Kenyan, holds a PhD in Medical Sciences in Infection Research. 
       His research is focused on unravelling the malaria parasite biology to discover novel malaria antigens that can serve as vaccine and drug targets. 
@@ -49,4 +51,4 @@
     His hobby is photography. 
       At personal level, he has a bi-racial nuclear family and enjoys social, racial and cultural diversity
 
-  modalid: pop2
+

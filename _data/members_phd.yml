@@ -9,78 +9,89 @@
 #  education4:
 
 - name: Reuben Ayivor-Djanie
-  photo: rock.jpg
+  photo: reubenayivordjanie.png
   info: Final-year PhD student
   email: rayivor.djanie@gmail.com
-  linkedin: <a href='https://www.linkedin.com/in/reuben-ayivor-djanie-76874a38/'>Linkedin</a>
-  #googlescholar: <a href='https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&hl=en'>Google Scholar</a> 
-  researchgate: <a href='https://www.researchgate.net/profile/Reuben_Ayivor-Djanie'>ResearchGate</a>
-  #orcid: <a href='https://orcid.org/0000-0002-8415-2727'>ORCID</a>
-  twitter: <a href='https://twitter.com/radjanie2'>Twitter</a>
+  linkedin: <a href='https://www.linkedin.com/in/reuben-ayivor-djanie-76874a38/'>Linkedin </a>
+  googlescholar: <a href=''>| Google Scholar </a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Reuben_Ayivor-Djanie'>| ResearchGate </a>
+  twitter: <a href='https://twitter.com/radjanie2'>| Twitter </a>
+  orcid: <a href=''>| ORCID </a>
+  modalid: pop1
   researchinterest: 
 
 - name: Laty Thiam Gaye
-  photo: latygayethiam.jpg
+  photo: latygayethiam.png
   info: Final-year PhD student
   email: latygaye.thiam@ucad.edu.sn
-  linkedin: <a href='https://www.linkedin.com/in/laty-gaye-thiam-068927b5/'>Linkedin</a>
-  #googlescholar: <a href='https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&hl=en'>Google Scholar</a> 
-  researchgate: <a href='https://www.researchgate.net/profile/Thiam_Laty_Gaye'>ResearchGate</a>
-  #orcid: <a href='https://orcid.org/0000-0002-8415-2727'>ORCID</a>
-  twitter: <a href='https://twitter.com/LatyGaye'>Twitter</a>
+  linkedin: <a href='https://www.linkedin.com/in/laty-gaye-thiam-068927b5/'>Linkedin </a>
+  googlescholar: <a href=''>| Google Scholar </a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Thiam_Laty_Gaye'>| ResearchGate </a>
+  orcid: <a href=''>| ORCID </a>
+  twitter: <a href='https://twitter.com/LatyGaye'>| Twitter </a>
+  modalid: pop2
   researchinterest: 
 
 - name: Jonas A. Kengne-Ouafo
-  photo: .png
+  photo: jonaskengne.png
   info: Third-year PhD student
   email: jakengne@gmail.com
-  linkedin: <a href='https://www.linkedin.com/in/jonas-kengne-ab667a56/'>Linkedin</a>
-  #googlescholar: <a href='https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&hl=en'>Google Scholar</a> 
-  researchgate: <a href='https://www.researchgate.net/profile/Jonas_A_Kengne-Ouafo'>ResearchGate</a>
-  orcid: <a href='https://orcid.org/0000-0003-3516-8498'>ORCID</a>
-  twitter: <a href='https://twitter.com/jakengne'>Twitter</a>
+  linkedin: <a href='https://www.linkedin.com/in/jonas-kengne-ab667a56/'>Linkedin </a>
+  googlescholar: <a href=''>| Google Scholar </a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Jonas_A_Kengne-Ouafo'>| ResearchGate </a>
+  orcid: <a href='https://orcid.org/0000-0003-3516-8498'>| ORCID</a>
+  twitter: <a href='https://twitter.com/jakengne'>| Twitter </a>
+  modalid: pop3
   researchinterest: 
 
 - name: Jersley Chirawurah
   photo: jersleychirawurah.png
   info: Second-year PhD student
   email: jersley1987@gmail.com
-  linkedin: <a href='https://www.linkedin.com/in/chirawurah-jersley-73170b55/'>Linkedin</a>
-  googlescholar: <a href='https://scholar.google.com/citations?user=Adx1ocsAAAAJ&hl=en'>Google Scholar</a> 
-  researchgate: <a href='https://www.researchgate.net/profile/Chirawurah_Jersley2'>ResearchGate</a>
-  orcid: <a href='http://orcid.org/0000-0002-4861-0938'>ORCID</a>
-  twitter: <a href='https://twitter.com/chirawurah'>Twitter</a>
-  researchinterest: 
+  linkedin: <a href='https://www.linkedin.com/in/chirawurah-jersley-73170b55/'>Linkedin |</a>
+  googlescholar: <a href='https://scholar.google.com/citations?user=Adx1ocsAAAAJ&hl=en'> Google Scholar |</a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Chirawurah_Jersley2'> ResearchGate |</a>
+  twitter: <a href='https://twitter.com/chirawurah'> Twitter |</a>
+  orcid: <a href='http://orcid.org/0000-0002-4861-0938'> ORCID</a>
+  modalid: pop4
+  researchinterest:  >
+    My research interest is in the area antimalaria drug discovery and development. 
+      I am particularly interested in the discovery of new lead antimalaria compounds using laboratory and clinical isolates of P. falciparum. 
+
+    Additionally, I am also interested in the discovery of new antimalarial drug targets, elucidation of the mechanism of action and resistance of antimalaria compounds in P. falciparum parasites.
 
 - name: Felix Ansah
   photo: felixansah.jpg
   info: Second-year PhD student
   email: ansahfelix66@yahoo.com
-  linkedin: <a href='https://www.linkedin.com/in/felix-ansah-581905135/'>Linkedin</a>
-  #googlescholar: <a href='https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&hl=en'>Google Scholar</a> 
-  researchgate: <a href='https://www.researchgate.net/profile/Felix_Ansah2'>ResearchGate</a>
-  #orcid: <a href='https://orcid.org/0000-0002-8415-2727'>ORCID</a>
-  twitter: <a href='https://twitter.com/Fansah004'>Twitter</a>
+  linkedin: <a href='https://www.linkedin.com/in/felix-ansah-581905135/'>Linkedin |</a>
+  googlescholar: <a href=''> Google Scholar |</a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Felix_Ansah2'> ResearchGate |</a>
+  twitter: <a href='https://twitter.com/Fansah004'> Twitter |</a>
+  orcid: <a href=''> ORCID</a>
+  modalid: pop5
   researchinterest: 
 
 - name: Alamissa Soulama
   photo: alamissahsoulama.png
   info: Second-year PhD student
   email: alamissas@yahoo.fr
-  #linkedin: <a href='https://www.linkedin.com/in/yaw-aniweh-phd-8971361a/'>Linkedin</a>
-  #googlescholar: <a href='https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&hl=en'>Google Scholar</a> 
-  researchgate: <a href='https://www.researchgate.net/profile/Alamissa_Soulama'>ResearchGate</a>
-  #orcid: <a href='https://orcid.org/0000-0002-8415-2727'>ORCID</a>
-  #twitter: <a href='https://twitter.com/AniwehYaw'>Twitter</a>
+  linkedin: <a href=''>Linkedin |</a>
+  googlescholar: <a href=''> Google Scholar |</a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Alamissa_Soulama'> ResearchGate |</a>
+  twitter: <a href=''> Twitter |</a>
+  orcid: <a href=''> ORCID</a>
+  modalid: pop6
   researchinterest: 
 
 - name: Collins Misita Morang’a
   photo: collinsmisita.png
   info: Second-year PhD student
   email: collinsmisita@gmail.com
-  linkedin: <a href='https://www.linkedin.com/in/collins-misita-12460952/'>Linkedin</a>
-  googlescholar: <a href='https://scholar.google.com/citations?user=UCKThFMAAAAJ&hl=en'>Google Scholar</a> 
-  researchgate: <a href='https://www.researchgate.net/profile/Collins_Misita2'>ResearchGate</a>
-  #orcid: <a href='https://orcid.org/0000-0002-8415-2727'>ORCID</a>
-  twitter: <a href='https://twitter.com/collinsmisita'>Twitter</a>
+  linkedin: <a href='https://www.linkedin.com/in/collins-misita-12460952/'>Linkedin </a>
+  googlescholar: <a href='https://scholar.google.com/citations?user=UCKThFMAAAAJ&hl=en'> Google Scholar |</a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Collins_Misita2'> ResearchGate |</a>
+  twitter: <a href='https://twitter.com/collinsmisita'> Twitter |</a>
+  orcid: <a href=''> ORCID</a>
+  modalid: pop7
   researchinterest: 

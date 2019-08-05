@@ -16,14 +16,14 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-12 clearfix" >
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: middle;" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left;" />
   <h4>{{ member.name }}</h4>
   {{ member.info }}<br><{{ member.email }}><br>
   <h6>
-    {{ member.linkedin }} | 
-    {{ member.googlescholar }} | 
-    {{ member.researchgate }} | 
-    {{ member.twitter }}| 
+    {{ member.linkedin }}
+    {{ member.googlescholar }}
+    {{ member.researchgate }}
+    {{ member.twitter }}
     {{ member.orcid }}
   </h6><br>
   {{ member.biography }}
@@ -43,6 +43,8 @@ permalink: /team/
 </div>
 {% endif %}
 
+<hr>
+
 ## GROUP LEAD
 
 {% assign number_printed = 0 %}
@@ -58,7 +60,7 @@ permalink: /team/
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left;" />
   <h4>{{ member.name }}</h4>
   {{ member.info }}<br><{{ member.email }}> 
-  <h6>{{ member.linkedin }} | {{ member.googlescholar }} | {{ member.researchgate }} | {{ member.twitter }} | {{ member.orcid }}</h6>
+  <h6>{{ member.linkedin }}{{ member.googlescholar }}{{ member.researchgate }}{{ member.twitter }}{{ member.orcid }}</h6>
 
   <div id="{{ member.modalid }}" class="modal">
    {{ member.research }}
@@ -81,6 +83,7 @@ permalink: /team/
 </div>
 {% endif %}
 
+<hr>
 
 ##  PhD STUDENTS
 {% assign number_printed = 0 %}
@@ -96,14 +99,14 @@ permalink: /team/
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left;" />
   <h4>{{ member.name }}</h4>
   {{ member.info }}<br><{{ member.email }}> 
-  <h6>{{ member.linkedin }} | {{ member.googlescholar }} | {{ member.researchgate }} | {{ member.twitter }} | {{ member.orcid }}</h6>
+  <h6>{{ member.linkedin }}{{ member.googlescholar }}{{ member.researchgate }}{{ member.twitter }}{{ member.orcid }}</h6>
 
   <div id="{{ member.modalid }}" class="modal">
    {{ member.research }}
    {{ member.biography }}
    <a href="#" rel="modal:close">Close</a>
   </div>
-  <p><a href="#{{ member.modalid }}" rel="modal:open">Career Biography</a></p>
+  <p><a href="#{{ member.modalid }}" rel="modal:open">Research Interest</a></p>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -118,6 +121,8 @@ permalink: /team/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+
+<hr>
 
 ## MPhil Students
 {% assign number_printed = 0 %}
@@ -133,14 +138,14 @@ permalink: /team/
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left;" />
   <h4>{{ member.name }}</h4>
   {{ member.info }}<br><{{ member.email }}> 
-  <h6>{{ member.linkedin }} | {{ member.googlescholar }} | {{ member.researchgate }} | {{ member.twitter }} | {{ member.orcid }}</h6>
+  <h6>{{ member.linkedin }}{{ member.googlescholar }}{{ member.researchgate }}{{ member.twitter }}{{ member.orcid }}</h6>
 
   <div id="{{ member.modalid }}" class="modal">
    {{ member.research }}
    {{ member.biography }}
    <a href="#" rel="modal:close">Close</a>
   </div>
-  <p><a href="#{{ member.modalid }}" rel="modal:open">Career Biography</a></p>
+  <p><a href="#{{ member.modalid }}" rel="modal:open">Research Interest</a></p>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -155,6 +160,8 @@ permalink: /team/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+
+<hr>
 
 ## BSc Students
 {% assign number_printed = 0 %}
@@ -170,14 +177,14 @@ permalink: /team/
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left;" />
   <h4>{{ member.name }}</h4>
   {{ member.info }}<br><{{ member.email }}> 
-  <h6>{{ member.linkedin }} | {{ member.googlescholar }} | {{ member.researchgate }} | {{ member.twitter }} | {{ member.orcid }}</h6>
+  <h6>{{ member.linkedin }}{{ member.googlescholar }}{{ member.researchgate }}{{ member.twitter }}{{ member.orcid }}</h6>
 
   <div id="{{ member.modalid }}" class="modal">
    {{ member.research }}
    {{ member.biography }}
    <a href="#" rel="modal:close">Close</a>
   </div>
-  <p><a href="#{{ member.modalid }}" rel="modal:open">Career Biography</a></p>
+  <p><a href="#{{ member.modalid }}" rel="modal:open">Research Interest</a></p>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -193,10 +200,12 @@ permalink: /team/
 </div>
 {% endif %}
 
+<hr>
+
 ## Alumni
 
 {% assign number_printed = 0 %}
-{% for member in site.data.members_alumini %}
+{% for member in site.data.members_alumni %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -208,16 +217,11 @@ permalink: /team/
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left;" />
   <h4>{{ member.name }}</h4>
   {{ member.info }}<br><{{ member.email }}> 
-  <h6>{{ member.linkedin }} | {{ member.googlescholar }} | {{ member.researchgate }} | {{ member.twitter }} | {{ member.orcid }}</h6>
+  <h6>{{ member.linkedin }} {{ member.googlescholar }} {{ member.researchgate }} {{ member.twitter }} {{ member.orcid }}</h6>
 
-  <div id="{{ member.modalid }}" class="modal">
    {{ member.research }}
    {{ member.biography }}
-   <a href="#" rel="modal:close">Close</a>
-  </div>
-  <p><a href="#{{ member.modalid }}" rel="modal:open">Career Biography</a></p>
-</div>
-
+  
 {% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
