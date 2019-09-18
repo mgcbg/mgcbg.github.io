@@ -1,0 +1,21 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+- name: Maureen Duphey
+  photo: maureen.png
+  info: Graduate intern
+  email: m.duphey@yahoo.com
+  linkedin: <a href='https://www.linkedin.com/in/seyram-maureen-duphey-82726830/'>Linkedin |</a>
+  googlescholar: <a href='https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&hl=en'> Google Scholar |</a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Maureen_Duphey'> ResearchGate |</a>
+  twitter: <a href='https://twitter.com/SeyramDuphey'> Twitter |</a>
+  orcid: <a href='https://orcid.org/0000-0002-8415-2727'> ORCID</a>
+  modalid: pop1
+  researchinterest: 
