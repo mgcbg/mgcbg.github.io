@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Team"
 layout: gridlay
