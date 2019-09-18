@@ -17,7 +17,7 @@
   researchgate: <a href='https://www.researchgate.net/profile/Reuben_Ayivor-Djanie'>| ResearchGate </a>
   twitter: <a href='https://twitter.com/radjanie2'>| Twitter </a>
   orcid: <a href=''>| ORCID </a>
-  modalid: pop1
+  modalid: 
   researchinterest: 
 
 - name: Laty Thiam Gaye
@@ -29,7 +29,7 @@
   researchgate: <a href='https://www.researchgate.net/profile/Thiam_Laty_Gaye'>| ResearchGate </a>
   orcid: <a href=''>| ORCID </a>
   twitter: <a href='https://twitter.com/LatyGaye'>| Twitter </a>
-  modalid: pop2
+  modalid: 
   researchinterest: 
 
 - name: Jonas A. Kengne-Ouafo
@@ -41,7 +41,7 @@
   researchgate: <a href='https://www.researchgate.net/profile/Jonas_A_Kengne-Ouafo'>| ResearchGate </a>
   orcid: <a href='https://orcid.org/0000-0003-3516-8498'>| ORCID</a>
   twitter: <a href='https://twitter.com/jakengne'>| Twitter </a>
-  modalid: pop3
+  modalid: 
   researchinterest: 
 
 - name: Jersley Chirawurah
@@ -53,7 +53,7 @@
   researchgate: <a href='https://www.researchgate.net/profile/Chirawurah_Jersley2'> ResearchGate |</a>
   twitter: <a href='https://twitter.com/chirawurah'> Twitter |</a>
   orcid: <a href='http://orcid.org/0000-0002-4861-0938'> ORCID</a>
-  modalid: pop4
+  modalid: 
   researchinterest:  >
     My research interest is in the area antimalaria drug discovery and development. 
       I am particularly interested in the discovery of new lead antimalaria compounds using laboratory and clinical isolates of P. falciparum. 
@@ -69,7 +69,7 @@
   researchgate: <a href='https://www.researchgate.net/profile/Felix_Ansah2'> ResearchGate |</a>
   twitter: <a href='https://twitter.com/Fansah004'> Twitter |</a>
   orcid: <a href=''> ORCID</a>
-  modalid: pop5
+  modalid: 
   researchinterest: 
 
 - name: Alamissa Soulama
@@ -81,7 +81,7 @@
   researchgate: <a href='https://www.researchgate.net/profile/Alamissa_Soulama'> ResearchGate |</a>
   twitter: <a href=''> Twitter |</a>
   orcid: <a href=''> ORCID</a>
-  modalid: pop6
+  modalid: 
   researchinterest: 
 
 - name: Collins Misita Morang’a
@@ -93,5 +93,5 @@
   researchgate: <a href='https://www.researchgate.net/profile/Collins_Misita2'> ResearchGate |</a>
   twitter: <a href='https://twitter.com/collinsmisita'> Twitter |</a>
   orcid: <a href=''> ORCID</a>
-  modalid: pop7
+  modalid: 
   researchinterest: 

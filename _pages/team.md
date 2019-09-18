@@ -5,8 +5,47 @@ excerpt: "Team members"
 sitemap: false
 permalink: /team/
 ---
+# LAB LEADER
+{% assign number_printed = 0 %}
+{% for member in site.data.members_pi %}
 
-## GROUP Lead
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-12 clearfix" >
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left;" />
+  <h4>{{ member.name }}</h4>
+  {{ member.info }}<br><{{ member.email }}><br>
+  <h6>
+    {{ member.linkedin }}
+    {{ member.googlescholar }}
+    {{ member.researchgate }}
+    {{ member.twitter }}
+    {{ member.orcid }}
+  </h6><br>
+  {{ member.biography }}
+
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+<hr>
+
+## GROUP LEAD
 
 {% assign number_printed = 0 %}
 {% for member in site.data.members_lead %}
@@ -46,7 +85,7 @@ permalink: /team/
 
 <hr>
 
-##  PhD Students
+##  PhD STUDENTS
 {% assign number_printed = 0 %}
 {% for member in site.data.members_phd %}
 
@@ -234,5 +273,3 @@ permalink: /team/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
->>>>>>> initial commit
