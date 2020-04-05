@@ -258,9 +258,13 @@ permalink: /team/
   {{ member.info }}<br><{{ member.email }}> 
   <h6>{{ member.linkedin }} {{ member.googlescholar }} {{ member.researchgate }} {{ member.twitter }} {{ member.orcid }}</h6>
 
+  <div id="{{ member.modalid }}" class="modal">
    {{ member.research }}
    {{ member.biography }}
-  
+   <a href="#" rel="modal:close">Close</a>
+  </div>
+  <p><a href="#{{ member.modalid }}" rel="modal:open">Research Interest</a></p>
+</div>
 {% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
@@ -273,3 +277,5 @@ permalink: /team/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+
+<hr>
