@@ -8,8 +8,10 @@ permalink: /
 
 The Molecular Genetic and Cell Biology Group is part of the Malaria program led by Prof Gordon Awandare. The group aims to bridge the gap between bench and field research. We are doing so by harnessing state-of-the-art facilities at <a href='http://www.waccbip.org/'>WACCBIP</a> to understand the different Plasmodium species circulating in Ghana towards the development of effective interventions.
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
+
+  <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
+
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
@@ -36,8 +38,7 @@ The Molecular Genetic and Cell Biology Group is part of the Malaria program led 
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
-
+  </div>
 
 
 The group's research interest includes,but not limited to, understanding erythrocyte invasion mechanisms of merozoites in field isolates, novel antigens discovery, drug target identification and validation, molecular diagnostics, the impact of non-falciparum species on malaria interventions, receptor discovery, etc.

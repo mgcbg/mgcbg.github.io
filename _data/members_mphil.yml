@@ -12,12 +12,12 @@
   photo: jonathansuubaar.png
   info: First-year MPhil student
   email: eccejonathan@gmail.com
-  linkedin: <a href=''>Linkedin </a>
+  linkedin: <a href='https://www.linkedin.com/in/jonathan-suurbaar-8b952aa8/'>Linkedin </a>
   googlescholar: <a href=''> Google Scholar |</a> 
-  researchgate: <a href='https://www.researchgate.net/profile/Reuben_Ayivor-Djanie'> ResearchGate |</a>
+  researchgate: <a href='https://www.researchgate.net/profile/Jonathan_Suurbaar'> ResearchGate |</a>
   twitter: <a href='https://twitter.com/Jae_Suurbaar'> Twitter |</a>
   orcid: <a href=''> ORCID</a>
-  modalid: 
+  modalid: pop-jae
   researchinterest:  >
     Jonathan Suurbaar graduated from the University for Development Studies (UDS), Tamale-Ghana, with a B.Sc. in Biochemistry. 
       Jonathan is currently pursuing an MPhil in Molecular Cell Biology of Infectious Diseases, with special interest in malaria vaccinology. 
@@ -31,10 +31,34 @@
   photo: harrydanwonno.png
   info: First-year MPhil student
   email: hatajerad@gmail.com
+  linkedin: <a href='https://www.linkedin.com/in/harry-danwonno-a7946ab6'>Linkedin |</a>
+  googlescholar: <a href='https://scholar.google.com/citations?user=wLCJJ2EAAAAJ&hl=en'> Google Scholar |</a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Harry_Danwonno'> ResearchGate |</a>
+  twitter: <a href='https://twitter.com/Atajera'> Twitter |</a>
+  orcid: <a href='https://orcid.org/0000-0001-8734-4196'> ORCID</a>
+  modalid: pop-ataj
+  researchinterest: 
+
+- name: Nelson Kwesi Osae
+  photo: bio-photo-m.png
+  info: First-year MPhil student
+  email: ekoneok@gmail.com
   linkedin: <a href=''>Linkedin |</a>
   googlescholar: <a href=''> Google Scholar |</a> 
   researchgate: <a href=''> ResearchGate |</a>
-  twitter: <a href='https://twitter.com/Atajera'> Twitter |</a>
+  twitter: <a href='https://twitter.com/NellyEkon'> Twitter |</a>
   orcid: <a href=''> ORCID</a>
-  modalid: 
+  modalid: pop-ekon
+  researchinterest: 
+
+- name: Stanley Amogu Iro
+  photo: bio-photo-m.png
+  info: First-year MPhil student
+  email: stanleyiro@gmail.com
+  linkedin: <a href='https://www.linkedin.com/in/iro-stanley-66241030/'>Linkedin |</a>
+  googlescholar: <a href=''> Google Scholar |</a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Stanley_Iro2'> ResearchGate |</a>
+  twitter: <a href='https://twitter.com/standeeiro'> Twitter |</a>
+  orcid: <a href=''> ORCID</a>
+  modalid: pop-iro
   researchinterest: 

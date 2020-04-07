@@ -1,41 +1,79 @@
-- title: "SMIM1 at a glance; discovery, genetic basis, recent progress and perspectives"
+- title: "Analysis of Plasmodium falciparum Rh2b deletion polymorphism across different transmission areas [Jan, 2020]"
+  image: dummy.png
+  description: Recent elucidation of the genetic basis of the Vel blood group system has offered the field of blood transfusion medicine an additional consideration in determining the causes of hemolytic reactions after a patient is transfused. The identification of the SMIM1 gene to be responsible for the Vel blood group allows molecular based tools to be developed to further dissect the function of this antigen. Genetic signatures such as the homozygous 17 bp deletion and the heterozygous 17 bp deletion in combination with other single nucleotide polymorphisms (SNPs) and insertion sequences regulate the expression level of the gene. With this knowledge, it is now possible to study this antigen in-depth.
+  authors: Yaw Aniweh, Jonathan Suurbaar, Collins M Morang’a, Prince B Nyarko, Katherine E Wright, Kwadwo A Kusi, Felix Ansah, Eric Kyei-Baafour, Evelyn Quansah, Jessica Asante, Laty G Thiam, Matthew K Higgins, Gordon A Awandare
+  journal: Scientific Reports
+  link: 
+    url: https://doi.org/10.1038/s41598-020-58300-3
+  highlight: 1
+  news2:
+
+- title: "Investigating a Plasmodium falciparum erythrocyte invasion phenotype switch at the whole transcriptome level [Jan, 2020]"
+  image: dummy.png
+  description: Recent elucidation of the genetic basis of the Vel blood group system has offered the field of blood transfusion medicine an additional consideration in determining the causes of hemolytic reactions after a patient is transfused. The identification of the SMIM1 gene to be responsible for the Vel blood group allows molecular based tools to be developed to further dissect the function of this antigen. Genetic signatures such as the homozygous 17 bp deletion and the heterozygous 17 bp deletion in combination with other single nucleotide polymorphisms (SNPs) and insertion sequences regulate the expression level of the gene. With this knowledge, it is now possible to study this antigen in-depth.
+  authors: Prince B Nyarko, Sarah J Tarr, Yaw Aniweh, Lindsay B Stewart, David J Conway, Gordon A Awandare
+  journal: Scientific Reports
+  link: 
+    url: https://doi.org/10.1016/j.parepi.2019.e00101
+  highlight: 1
+  news2:
+
+- title: "Cell trace far-red is a suitable erythrocyte dye for multi-color Plasmodium falciparum invasion phenotyping assays [Jan, 2020]"
+  image: dummy.png
+  description: Plasmodium falciparum erythrocyte invasion phenotyping assays are a very useful tool for assessing parasite diversity and virulence, and for characterizing the formation of ligand–receptor interactions. However, such assays need to be highly sensitive and reproducible, and the selection of labeling dyes for differentiating donor and acceptor erythrocytes is a critical factor. We investigated the suitability of cell trace far-red (CTFR) as a dye for P. falciparum invasion phenotyping assays. Using the dyes carboxyfluorescein diacetate succinimidyl ester (CFDA-SE) and dichloro dimethyl acridin one succinimidyl ester (DDAO-SE) as comparators, we used a dye-dilution approach to assess the limitations and specific staining procedures for the applicability of CTFR in P. falciparum invasion phenotyping assays. Our data show that CTFR effectively labels acceptor erythrocytes and provides a stable fluorescent intensity at relatively low concentrations. CTFR also yielded a higher fluorescence intensity relative to DDAO-SE and with a more stable fluorescence intensity over time. Furthermore, CTFR did not affect merozoites invasion of erythrocytes and was not toxic to the parasite’s intraerythrocytic development. Additionally, CTFR offers flexibility in the choice of combinations with several other DNA dyes, which broaden its usage for P. falciparum erythrocyte invasion assays, considering a wider range of flow cytometers with various laser settings.
+  authors: Laty G Thiam, Yaw Aniweh, Evelyn B Quansah, Jacob K Donkor, Theresa M Gwira, Kwadwo A Kusi, Makhtar Niang, Gordon A Awandare
+  journal: Experimental Biology and Medicine
+  link: 
+    url: https://doi.org/10.1177/1535370219897393
+  highlight: 1
+  news2:
+
+- title: "Recent Advances in the Development of Biosensors for Malaria Diagnosis [Jan, 2020]"
+  image: dummy.png
+  description: The impact of malaria on global health has continually prompted the need to develop more effective diagnostic strategies that could overcome deficiencies in accurate and early detection. In this review, we examine the various biosensor-based methods for malaria diagnostic biomarkers, namely; Plasmodium falciparum histidine-rich protein 2 (PfHRP-2), parasite lactate dehydrogenase (pLDH), aldolase, glutamate dehydrogenase (GDH), and the biocrystal hemozoin. The models that demonstrate a potential for field application have been discussed, looking at the fabrication and analytical performance characteristics, including (but not exclusively limited to); response time, sensitivity, detection limit, linear range, and storage stability, which are first summarized in a tabular form and then described in detail. The conclusion summarizes the state-of-the-art technologies applied in the field, the current challenges and the emerging prospects for malaria biosensors. 
+  authors: Yaw Aniweh, Prince B Nyarko, Evelyn Quansah, Laty Gaye Thiam, Gordon A Awandare
+  journal: Parasite epidemiology and control
+  link: 
+    url: https://doi.org/10.1016/j.parepi.2019.e00101
+  highlight: 1
+  news2:
+
+- title: "SMIM1 at a glance; discovery, genetic basis, recent progress and perspectives [Mar, 2019]"
   image: smimi.png
   description: Recent elucidation of the genetic basis of the Vel blood group system has offered the field of blood transfusion medicine an additional consideration in determining the causes of hemolytic reactions after a patient is transfused. The identification of the SMIM1 gene to be responsible for the Vel blood group allows molecular based tools to be developed to further dissect the function of this antigen. Genetic signatures such as the homozygous 17 bp deletion and the heterozygous 17 bp deletion in combination with other single nucleotide polymorphisms (SNPs) and insertion sequences regulate the expression level of the gene. With this knowledge, it is now possible to study this antigen in-depth.
   authors: Yaw Aniweh, Prince B Nyarko, Evelyn Quansah, Laty Gaye Thiam, Gordon A Awandare
-  date: feb 2019
-
+  journal: Parasite epidemiology and control
   link: 
     url: https://doi.org/10.1016/j.parepi.2019.e00101
-    display:  http://doi.org/c8cn
   highlight: 1
   news2:
 
-- title: "P. falciparum strains spontaneously switch invasion phenotype in sus. culture"
+- title: "P. falciparum strains spontaneously switch invasion phenotype in sus. culture [Apr, 2018]"
   image: switchphen.png
   description: P. falciparum strains Dd2 and W2mef have been shown to change from sialic acid (SA)-dependent to SA-independent phenotypes when selected on neuraminidase-treated erythrocytes. Following an observation of increasing ability of Dd2 to invade neuraminidase-treated cells when cultured for weeks, we compared invasion phenotypes of Dd2, W2mef and 3D7 strains of Pf that were cultured with suspended or static. While Static Dd2 and W2mef remained SA-dependent for the entire duration of the investigation, Suspended parasites spontaneously and progressively switched to SA-independent phenotype from week 2 onwards. Our data demonstrates a novel mechanism for inducing the switching of invasion pathways in Pf parasites.
   authors: Gordon A. Awandare, Prince B. Nyarko, Yaw Aniweh, Reuben Ayivor-Djanie, José A. Stoute 
+  journal: Scientific reports
   link: 
     url: https://doi.org/10.1038/s41598-018-24218-0
-    display:  https://doi.org/10.1038/s41598-018-24218-0
   highlight: 1
   news2:
 
-- title: "Local diagnostics kits for Africa being developed in Ghana"
+- title: "Local diagnostics kits for Africa being developed in Ghana [Jul, 2018]"
   image: dummy.png
   description: In our view, building local capacity in diagnostics could help Africa to tackle diseases such as malaria, HIV/AIDS and tuberculosis. We have set up a unit to design and develop diagnostic kits at the University of Ghana’s West African Centre for Cell Biology of Infectious Pathogens (WACCBIP). A robust service to monitor public health and deliver treatment depends on reliable early diagnosis of medical conditions. Africa is generally very limited in its development and deployment of diagnostics systems, however, so these are mostly brought in at high cost from the developed world. Furthermore, the stability and usability of such sensing systems are hampered by poor storage conditions and inadequately trained personnel. Using local platforms such as ours for developing diagnostic sensors and instrumentation will help to meet the continent’s growing demand for them. The hope is that ill health will no longer impede the economic prospects of the continent.
   authors:  Yaw Aniweh, Prosper Kanyong, Francis Krampa, Gordon A. Awandare
+  journal: Nature
   link: 
-    url: 
-    display:  https://doi.org/10.1038/d41586-018-05666-0
+    url: https://doi.org/10.1038/d41586-018-05666-0
   highlight: 1
   news2:
 
-- title: "Antimalarial activity of Malaria Box compounds against P. falciparum clinical isolates"
+- title: "Antimalarial activity of Malaria Box compounds against P. falciparum clinical isolates [Dec, 2017]"
   image: malbox.png
   description: Malaria remains a major cause of childhood deaths in resource-limited settings. In the absence of an effective vaccine, drugs and other interventions have played very significant roles in combating the scourge of malaria. The recent reports of resistance to artemisinin necessitate the need for new antimalarial drugs with novel mechanisms of action. Towards the development of new, affordable and easily accessible antimalarial drugs for endemic regions, the Medicines for Malaria Venture (MMV) assembled a total of 400 active antimalarial compounds called the Malaria Box. The potency and the efficacy of the Malaria Box Compounds have been determined mainly using laboratory strains of P. falciparum.
   authors: Jersley D Chirawurah, Felix Ansah, Prince B Nyarko, Samuel Duodu, Yaw Aniweh, Gordon A Awandare
+  journal: International Journal for Parasitology; Drugs and Drug Resistance
   link: 
-    url: 
-    display:  https://doi.org/10.1016/j.ijpddr.2017.10.005
+    url: https://doi.org/10.1016/j.ijpddr.2017.10.005
   highlight: 1
   news2:

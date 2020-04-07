@@ -1,0 +1,34 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+- name: Samuel O. Blankson 
+  photo: bio-photo-m.png
+  info: Research Assistant
+  email: blanco3j96@gmail.com
+  linkedin: <a href=''>Linkedin |</a>
+  googlescholar: <a href=''> Google Scholar |</a> 
+  researchgate: <a href=''> ResearchGate |</a>
+  twitter: <a href=''> Twitter |</a>
+  orcid: <a href=''> ORCID</a>
+  modalid: 
+  researchinterest: 
+
+- name: Daniel Dosoo
+  photo: bio-photo-m.png
+  info: Laboratory technician
+  email: dosoodaniel@gmail.com
+  linkedin: <a href=''>Linkedin |</a>
+  googlescholar: <a href=''> Google Scholar |</a> 
+  researchgate: <a href=''> ResearchGate |</a>
+  twitter: <a href=''> Twitter |</a>
+  orcid: <a href=''> ORCID</a>
+  modalid: 
+  researchinterest: 
+
