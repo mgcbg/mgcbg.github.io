@@ -19,7 +19,7 @@
   researchgate: <a href='https://www.researchgate.net/profile/Jonas_A_Kengne-Ouafo'>| ResearchGate </a>
   orcid: <a href='https://orcid.org/0000-0003-3516-8498'>| ORCID</a>
   twitter: <a href='https://twitter.com/jakengne'>| Twitter </a>
-  modalid: 
+  modalid: pop-kengne
   researchinterest: 
 
 - name: Jersley Chirawurah
@@ -31,15 +31,14 @@
   researchgate: <a href='https://www.researchgate.net/profile/Chirawurah_Jersley2'> ResearchGate |</a>
   twitter: <a href='https://twitter.com/chirawurah'> Twitter |</a>
   orcid: <a href='http://orcid.org/0000-0002-4861-0938'> ORCID</a>
-  modalid: 
+  modalid: pop-chira
   researchinterest:  >
-    My research interest is in the area antimalaria drug discovery and development. 
-      I am particularly interested in the discovery of new lead antimalaria compounds using laboratory and clinical isolates of P. falciparum. 
+    My research interest is in the discovery of novel lead antimalarial compounds using laboratory and clinical isolates of P. falciparum. 
 
-    Additionally, I am also interested in the discovery of new antimalarial drug targets, elucidation of the mechanism of action and resistance of antimalaria compounds in P. falciparum parasites.
+    Additionally, I am also interested in the discovery of new antimalarial drug targets, elucidation of the mechanism of action and resistance of antimalarial compounds in P. falciparum parasites.
 
 - name: Felix Ansah
-  photo: bio-photo.jpg
+  photo: bio-photo-m.png
   info: Third-year PhD student
   email: ansahfelix66@yahoo.com
   linkedin: <a href='https://www.linkedin.com/in/felix-ansah-581905135/'>Linkedin |</a>
@@ -47,19 +46,19 @@
   researchgate: <a href='https://www.researchgate.net/profile/Felix_Ansah2'> ResearchGate |</a>
   twitter: <a href='https://twitter.com/Fansah004'> Twitter |</a>
   orcid: <a href=''> ORCID</a>
-  modalid: 
+  modalid: pop-ansah
   researchinterest: 
 
 - name: Alamissa Soulama
   photo: alamissahsoulama.png
   info: Third-year PhD student
   email: alamissas@yahoo.fr
-  linkedin: <a href=''>Linkedin |</a>
+  linkedin: <a href='https://www.linkedin.com/in/alamissa-soulama-1b661a158/'>Linkedin |</a>
   googlescholar: <a href=''> Google Scholar |</a> 
   researchgate: <a href='https://www.researchgate.net/profile/Alamissa_Soulama'> ResearchGate |</a>
   twitter: <a href=''> Twitter |</a>
   orcid: <a href=''> ORCID</a>
-  modalid: 
+  modalid: pop-missa
   researchinterest: 
 
 - name: Collins Misita Morang’a
@@ -71,5 +70,5 @@
   researchgate: <a href='https://www.researchgate.net/profile/Collins_Misita2'> ResearchGate |</a>
   twitter: <a href='https://twitter.com/collinsmisita'> Twitter |</a>
   orcid: <a href=''> ORCID</a>
-  modalid: 
+  modalid: pop-misita
   researchinterest: 

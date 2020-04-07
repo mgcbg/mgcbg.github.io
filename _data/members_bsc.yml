@@ -10,12 +10,48 @@
 
 - name: Reinhard Danku
   photo: reinharddanku.png
-  info: Third-year BSc student
+  info: Final-year BSc student
   email: cdanku@gmail.com
   linkedin: <a href='https://www.linkedin.com/in/reinhard-danku-b96374111/'>Linkedin |</a>
-  googlescholar: <a href='https://scholar.google.com/citations?user=Ja5vAjMAAAAJ&hl=en'> Google Scholar |</a> 
+  googlescholar: <a href=''> Google Scholar |</a> 
   researchgate: <a href='https://www.researchgate.net/profile/Reinhard_Danku'> ResearchGate |</a>
-  twitter: <a href='https://twitter.com/evie__q'> Twitter |</a>
-  orcid: <a href='https://orcid.org/0000-0002-8415-2727'> ORCID</a>
+  twitter: <a href='https://twitter.com/Reinhard_kay'> Twitter |</a>
+  orcid: <a href=''> ORCID</a>
+  modalid: 
+  researchinterest: 
+
+- name: Bridget Adika
+  photo: bio-photo-f.png
+  info: Final-year BSc student
+  email: badika@st.ug.edu.gh
+  linkedin: <a href=''>Linkedin |</a>
+  googlescholar: <a href=''> Google Scholar |</a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Bridget_Adikah'> ResearchGate |</a>
+  twitter: <a href=''> Twitter |</a>
+  orcid: <a href=''> ORCID</a>
+  modalid: 
+  researchinterest: 
+
+- name: Kelvin Sackey
+  photo: bio-photo-m.png
+  info: Final-year BSc student
+  email: kelsac11@gmail.com
+  linkedin: <a href=''>Linkedin |</a>
+  googlescholar: <a href=''> Google Scholar |</a> 
+  researchgate: <a href=''> ResearchGate |</a>
+  twitter: <a href=''> Twitter |</a>
+  orcid: <a href=''> ORCID</a>
+  modalid: 
+  researchinterest: 
+
+- name: Christodea Haizel
+  photo: bio-photo-f.png
+  info: Final-year BSc student
+  email: chrisny14@yahoo.com
+  linkedin: <a href=''>Linkedin |</a>
+  googlescholar: <a href=''> Google Scholar |</a> 
+  researchgate: <a href=''> ResearchGate |</a>
+  twitter: <a href=''> Twitter |</a>
+  orcid: <a href=''> ORCID</a>
   modalid: 
   researchinterest: 
