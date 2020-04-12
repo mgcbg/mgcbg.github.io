@@ -10,13 +10,13 @@
 
 - name: Jonathan Suurbaar
   photo: jonathansuubaar.png
-  info: First-year MPhil student
+  info: Final-year MPhil student
   email: eccejonathan@gmail.com
   linkedin: <a href='https://www.linkedin.com/in/jonathan-suurbaar-8b952aa8/'>Linkedin </a>
-  googlescholar: <a href=''> Google Scholar |</a> 
-  researchgate: <a href='https://www.researchgate.net/profile/Jonathan_Suurbaar'> ResearchGate |</a>
-  twitter: <a href='https://twitter.com/Jae_Suurbaar'> Twitter |</a>
-  orcid: <a href=''> ORCID</a>
+  #googlescholar: <a href=''> Google Scholar |</a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Jonathan_Suurbaar'>| ResearchGate |</a>
+  twitter: <a href='https://twitter.com/Jae_Suurbaar'> Twitter </a>
+ # orcid: <a href=''>| ORCID</a>
   modalid: pop-jae
   researchinterest:  >
     Jonathan Suurbaar graduated from the University for Development Studies (UDS), Tamale-Ghana, with a B.Sc. in Biochemistry. 
@@ -29,7 +29,7 @@
 
 - name: Harry Danwonno
   photo: harrydanwonno.png
-  info: First-year MPhil student
+  info: Final-year MPhil student
   email: hatajerad@gmail.com
   linkedin: <a href='https://www.linkedin.com/in/harry-danwonno-a7946ab6'>Linkedin |</a>
   googlescholar: <a href='https://scholar.google.com/citations?user=wLCJJ2EAAAAJ&hl=en'> Google Scholar |</a> 
@@ -43,11 +43,11 @@
   photo: bio-photo-m.png
   info: First-year MPhil student
   email: ekoneok@gmail.com
-  linkedin: <a href=''>Linkedin |</a>
-  googlescholar: <a href=''> Google Scholar |</a> 
-  researchgate: <a href=''> ResearchGate |</a>
-  twitter: <a href='https://twitter.com/NellyEkon'> Twitter |</a>
-  orcid: <a href=''> ORCID</a>
+  #linkedin: <a href=''>Linkedin |</a>
+  #googlescholar: <a href=''> Google Scholar |</a> 
+  #researchgate: <a href=''> ResearchGate |</a>
+  twitter: <a href='https://twitter.com/NellyEkon'> Twitter </a>
+  #orcid: <a href=''> ORCID</a>
   modalid: pop-ekon
   researchinterest: 
 
@@ -56,9 +56,9 @@
   info: First-year MPhil student
   email: stanleyiro@gmail.com
   linkedin: <a href='https://www.linkedin.com/in/iro-stanley-66241030/'>Linkedin |</a>
-  googlescholar: <a href=''> Google Scholar |</a> 
+  #googlescholar: <a href=''> Google Scholar |</a> 
   researchgate: <a href='https://www.researchgate.net/profile/Stanley_Iro2'> ResearchGate |</a>
-  twitter: <a href='https://twitter.com/standeeiro'> Twitter |</a>
-  orcid: <a href=''> ORCID</a>
+  twitter: <a href='https://twitter.com/standeeiro'> Twitter </a>
+  #orcid: <a href=''>| ORCID</a>
   modalid: pop-iro
   researchinterest: 
