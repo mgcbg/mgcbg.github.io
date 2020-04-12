@@ -2,11 +2,11 @@
   photo: princenyarko.png
   info: MPhil Graduate
   email: pbnyarko2010@gmail.com
-  linkedin: <a href='https://www.linkedin.com/in/prince-b-nyarko/'>Linkedin</a>
-  googlescholar: <a href='https://scholar.google.co.uk/citations?user=AiiOJe0AAAAJ&hl=en'>Google Scholar</a> 
-  researchgate: <a href='https://www.researchgate.net/profile/Prince_Nyarko'>ResearchGate</a>
-  orcid: <a href='https://orcid.org/0000-0002-8236-1111'>ORCID</a>
-  twitter: <a href='https://twitter.com/npkay24'>Twitter</a>
+  linkedin: <a href='https://www.linkedin.com/in/prince-b-nyarko/'>Linkedin </a>
+  googlescholar: <a href='https://scholar.google.co.uk/citations?user=AiiOJe0AAAAJ&hl=en'>| Google Scholar </a> 
+  researchgate: <a href='https://www.researchgate.net/profile/Prince_Nyarko'>| ResearchGate </a>
+  orcid: <a href='https://orcid.org/0000-0002-8236-1111'>| ORCID</a>
+  twitter: <a href='https://twitter.com/npkay24'>| Twitter</a>
   modalid: pop1
   researchinterest: 
   
@@ -15,10 +15,10 @@
   info: PhD Graduate
   email: rayivor.djanie@gmail.com
   linkedin: <a href='https://www.linkedin.com/in/reuben-ayivor-djanie-76874a38/'>Linkedin </a>
-  googlescholar: <a href=''>| Google Scholar </a> 
+  #googlescholar: <a href=''>| Google Scholar </a> 
   researchgate: <a href='https://www.researchgate.net/profile/Reuben_Ayivor-Djanie'>| ResearchGate </a>
   twitter: <a href='https://twitter.com/radjanie2'>| Twitter </a>
-  orcid: <a href=''>| ORCID </a>
+  #orcid: <a href=''>| ORCID </a>
   modalid: 
   researchinterest: 
 
@@ -27,9 +27,9 @@
   info: PhD Graduate
   email: latygaye.thiam@ucad.edu.sn
   linkedin: <a href='https://www.linkedin.com/in/laty-gaye-thiam-068927b5/'>Linkedin </a>
-  googlescholar: <a href=''>| Google Scholar </a> 
+  #googlescholar: <a href=''>| Google Scholar </a> 
   researchgate: <a href='https://www.researchgate.net/profile/Thiam_Laty_Gaye'>| ResearchGate </a>
-  orcid: <a href=''>| ORCID </a>
+  #orcid: <a href=''>| ORCID </a>
   twitter: <a href='https://twitter.com/LatyGaye'>| Twitter </a>
   modalid: 
   researchinterest:
@@ -39,9 +39,9 @@
   info: MPhil Graduate
   email: ebquansah001@gmail.com
   linkedin: <a href='https://www.linkedin.com/in/evelyn-quansah-955639135/'>Linkedin |</a>
-  googlescholar: <a href=''> Google Scholar |</a> 
+  #googlescholar: <a href=''> Google Scholar |</a> 
   researchgate: <a href='https://www.researchgate.net/profile/Evelyn_Quansah2'> ResearchGate |</a>
-  twitter: <a href='https://twitter.com/evie__q'> Twitter |</a>
-  orcid: <a href=''> ORCID</a>
+  twitter: <a href='https://twitter.com/evie__q'> Twitter </a>
+  #orcid: <a href=''>| ORCID</a>
   modalid: 
   researchinterest: 
